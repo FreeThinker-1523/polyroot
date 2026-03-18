@@ -8,3 +8,5 @@ It is made using Durand-Kerner Method.
 Use of pure html, css and javascript.
 
 Hope you like it.
+
+Update:- I have included dark mode also in(V 2.0)
