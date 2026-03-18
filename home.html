@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <title>Root Solver</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <button class="go" onclick="document.body.classList.toggle('dark')" 
+        style="position:fixed; top:16px; right:16px; z-index:999">
+         Toggle dark
+         </button>
+        <div class="page">
+            <h1>
+                Poly<em>Root</em>
+            </h1>
+        <div class="label">Degree</div>
+        <div class="degs" id="degs"></div>    
+        <div class="eq" id="eq"><span>Pick a Degree</span></div>
+        <div id="coefs" style="display: none">
+            <div class="label">Coefficients</div>
+            <div id="fields"></div>
+            <button class="go" onclick="solve()">Solve</button>
+            <div class="err" id="err"></div>
+        </div>
+        <div id="out" style="display: none">
+            <table id="tbl"></table>
+            <div class="stats" id="stats"></div>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
